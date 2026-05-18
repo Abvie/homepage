@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>お問い合わせありがとうございます | Studio EMI</title>
+<meta name="description" content="Studio EMI お問い合わせ完了ページ">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --dark: #2a2a2a;
+    --muted: #777;
+    --accent: #b48a5c;
+    --line: #e5ddd2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    background: var(--bg);
+    color: var(--dark);
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+  }
+  .card {
+    background: #fff;
+    max-width: 560px;
+    width: 100%;
+    padding: 48px 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .06);
+    text-align: center;
+  }
+  .check {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin: 0 0 16px;
+    color: var(--dark);
+  }
+  p {
+    margin: 0 0 16px;
+    color: var(--muted);
+    font-size: .95rem;
+  }
+  p.strong {
+    color: var(--dark);
+    font-weight: 500;
+  }
+  .info {
+    margin-top: 28px;
+    padding: 20px;
+    background: var(--bg);
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    text-align: left;
+    font-size: .85rem;
+    color: var(--dark);
+  }
+  .info strong { color: var(--accent); }
+  .btn {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12px 32px;
+    background: var(--dark);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: .95rem;
+    transition: opacity .2s;
+  }
+  .btn:hover { opacity: .85; }
+  @media (max-width: 480px) {
+    .card { padding: 32px 20px; }
+    h1 { font-size: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>お問い合わせありがとうございます</h1>
+    <p class="strong">体験レッスンのお申し込みを受け付けました。</p>
+    <p>ご登録いただいたメールアドレス宛に確認メールをお送りしました。<br>担当者より24時間以内にご連絡いたします。今しばらくお待ちくださいませ。</p>
+    <div class="info">
+      <p style="margin:0 0 8px;"><strong>※確認メールが届かない場合</strong></p>
+      <p style="margin:0;">迷惑メールフォルダをご確認ください。それでも届かない場合は、メールアドレスの入力誤りの可能性がありますので、お手数ですが LINE またはお電話にてご連絡ください。</p>
+    </div>
+    <a class="btn" href="./">トップへ戻る</a>
+  </div>
+</body>
+</html>
