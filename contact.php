@@ -10,7 +10,7 @@ mb_language('Japanese');
 mb_internal_encoding('UTF-8');
 
 // ---- 設定 ----
-const ADMIN_EMAIL   = 'akamatsu.d@hbm-web.co.jp';
+const ADMIN_EMAIL   = 'pilates@studioemi.jp';
 const FROM_EMAIL    = 'noreply@studioemi.jp';
 const FROM_NAME     = 'Studio EMI';
 const SITE_URL      = 'https://studioemi.jp/';
